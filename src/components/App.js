@@ -11,6 +11,7 @@ function App() {
     <Router>
     <div className="App">
       <p>test routes</p>
+      <div classname="routes">
       <Switch>
         <Route>
           <Controller/> 
@@ -31,6 +32,7 @@ function App() {
           <Game/>
         </Route>
       </Switch>
+    </div>
     </div>
     </Router>
   );
